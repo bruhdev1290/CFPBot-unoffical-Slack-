@@ -1,0 +1,17 @@
+{
+  "name": "cfpbot-slack-modern",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Slack bot with Hubot-style listeners + Slash commands (Socket Mode). No Redis; JSON file storage only.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
